@@ -106,9 +106,16 @@ function MainScreen() {
           <S.InputName
             type="text"
             onChange={(e) => setNameAway(e.target.value)}
+            onFocus={() => setIsAwayFocused(true)}
+            onBlur={() => setIsAwayFocused(false)}
             value={nameAway}
-            maxLength={20}
-          ></S.InputName>
+            maxLength={NAME_LIMIT}
+          />
+          <S.NameCounterWrapper>
+            {isAwayFocused && (
+              <S.NameCounter>{`${nameAway.length} / ${NAME_LIMIT}`}</S.NameCounter>
+            )}
+          </S.NameCounterWrapper>
           <S.CounterAway>
             <h1>{countAway}</h1>
           </S.CounterAway>
