@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://phmiguel.github.io/truco_scoreboard",
+  "homepage": "https://phmiguel.github.io/truco_scoreboard/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
