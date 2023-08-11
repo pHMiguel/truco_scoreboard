@@ -19,21 +19,25 @@ export const Title = styled.div`
 
 export const Scoreboard = styled.div`
   height: 50vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-beetween;
 `;
 
 export const ContentAreaHome = styled.div`
-  font-size: 1em;
+  width: 45vw;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 1em;
 `;
 
 export const ContentAreaAway = styled.div`
+  width: 45vw;
   font-size: 1em;
   display: flex;
   flex-direction: column;
@@ -42,13 +46,12 @@ export const ContentAreaAway = styled.div`
 `;
 
 export const CounterHome = styled.div`
-  width: 80px;
-  height: 80px;
-  margin: 5px;
+  width: 180px;
+  height: 180px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 10px;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 500;
   font-family: inherit;
   background-color: #404040;
@@ -61,13 +64,12 @@ export const CounterHome = styled.div`
 `;
 
 export const CounterAway = styled.div`
-  width: 80px;
-  height: 80px;
-  margin: 5px;
+  width: 180px;
+  height: 180px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 10px;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 500;
   font-family: inherit;
   background-color: #404040;
@@ -80,20 +82,15 @@ export const CounterAway = styled.div`
 `;
 
 export const ButtonArea = styled.div`
-  width: 300px;
+  margin-top: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
 `;
 
 export const Versus = styled.div`
-  font-size: 2em;
-  flex: 1;
+  width: 10vw;
   display: flex;
   justify-content: center;
-  align-items: center;
 `;
 
 export const Credit = styled.div`
@@ -112,7 +109,7 @@ export const ResetButtonArea = styled.div`
 
 export const InputName = styled.input`
   height: 60px;
-  width: 100%;
+  width: 40vw;
   padding: 5px;
   border-radius: 8px;
   border: none;
@@ -147,6 +144,6 @@ export const NameCounter = styled.p`
 `;
 
 export const NameCounterWrapper = styled.div`
-  width: 100%;
+  width: 40vw;
   height: 30px;
 `;
