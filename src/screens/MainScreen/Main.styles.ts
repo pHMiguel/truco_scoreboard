@@ -28,12 +28,10 @@ export const Scoreboard = styled.div`
 
 export const ContentAreaHome = styled.div`
   width: 45vw;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1em;
 `;
 
 export const ContentAreaAway = styled.div`
@@ -45,7 +43,7 @@ export const ContentAreaAway = styled.div`
   justify-content: center;
 `;
 
-export const CounterHome = styled.div`
+export const CounterArea = styled.div`
   width: 180px;
   height: 180px;
   border-radius: 8px;
@@ -61,24 +59,10 @@ export const CounterHome = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-`;
-
-export const CounterAway = styled.div`
-  width: 180px;
-  height: 180px;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 10px;
-  font-size: 4em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #404040;
-  color-scheme: light dark;
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  @media (max-width: 480px) {
+    width: 20px;
+    height: 20px;
+  }
 `;
 
 export const ButtonArea = styled.div`

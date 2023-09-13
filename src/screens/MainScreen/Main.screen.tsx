@@ -67,9 +67,9 @@ function MainScreen() {
             )}
           </S.NameCounterWrapper>
 
-          <S.CounterHome>
+          <S.CounterArea>
             <h1>{countHome}</h1>
-          </S.CounterHome>
+          </S.CounterArea>
 
           <S.ButtonArea>
             <Button
@@ -129,9 +129,11 @@ function MainScreen() {
               <S.NameCounter>{`${nameAway.length} / ${NAME_LIMIT}`}</S.NameCounter>
             )}
           </S.NameCounterWrapper>
-          <S.CounterAway>
+
+          <S.CounterArea>
             <h1>{countAway}</h1>
-          </S.CounterAway>
+          </S.CounterArea>
+
           <S.ButtonArea>
             <Button
               onClick={() =>
