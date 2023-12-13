@@ -109,7 +109,7 @@ function MainScreen() {
 
       <Row>
         <Col xs={5}>
-          <Row className="justify-content--center">
+          <Row className="justify-content-md-center">
             <Col xs={6} lg={2} className="button-area">
               <Button
                 onClick={() =>
