@@ -1,0 +1,98 @@
+.main-container {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  height: 100vh;
+}
+
+.title {
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin-bottom: 5vh;
+}
+
+.input-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+  border: none;
+  outline: none;
+  transition: 0.3s all;
+
+  &:hover {
+    background-color: #262626;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+  }
+
+  &:focus {
+    background-color: #404040;
+    border: none;
+    outline: none;
+  }
+}
+
+.input-name-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.name-counter {
+  display: flex;
+  justify-content: end;
+}
+
+.main-counter-area {
+  height: 30vh;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.counter-content {
+  font-size: 8em;
+}
+
+.button-area {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+
+.reset-button-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.credit-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.bg-cl-red {
+  background-color: red;
+}

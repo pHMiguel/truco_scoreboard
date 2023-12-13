@@ -123,9 +123,7 @@ export const InputName = styled.input`
   }
 `;
 
-export const NameCounter = styled.p`
-  text-align: end;
-`;
+export const NameCounter = styled.p``;
 
 export const NameCounterWrapper = styled.div`
   width: 40vw;
